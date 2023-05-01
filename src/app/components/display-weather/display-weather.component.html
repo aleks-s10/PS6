@@ -1,0 +1,8 @@
+<div class="list-group">
+    <div *ngFor="let weather of weatherInfoArray"class="d-flex justify-content-center">
+        <div class="d-flex justify-content-between w-50 mt-4 list-group-item">
+            <span>{{weather[0].split('_').join(' ')}}</span>
+            <span>{{weather[1]}}</span>
+        </div>
+    </div>
+</div>

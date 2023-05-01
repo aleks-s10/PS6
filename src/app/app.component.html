@@ -1,0 +1,5 @@
+<div class="container text-center">
+  <app-header></app-header>
+  <app-button (btnClick)="fetchData()"></app-button>
+  <app-display-weather *ngIf="displayWeather"></app-display-weather>
+</div>
